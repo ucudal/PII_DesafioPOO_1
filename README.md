@@ -23,8 +23,8 @@ Crea una clase `Circle` con las siguientes responsabilidades:
 Agrega en el programa en `Program.cs` un ejemplo donde creas una instancia 
 de la clase `Circle` y luego muestras en la consola su perímetro y su área.
 
-Cuando tengas tu programa terminado, mira una posible solución [aquí]
-(https://github.com/ucudal/PII_DesafioPOO_1_End). Esa solución incluye la explicación de  cómo traducir la consigna a código.
+Cuando tengas tu programa terminado, mira una posible solución [aquí](https://github.com/ucudal/PII_DesafioPOO_1_End).
+Esa solución incluye la explicación de  cómo traducir la consigna a código.
 
 ## Reflexiona
 
