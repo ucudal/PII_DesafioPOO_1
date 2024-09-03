@@ -13,7 +13,7 @@ width="150"/>
 
 Crea una clase `Circle` con las siguientes responsabilidades:
 
-* Conocer el radio. Llama a la propiedad `Radio`. Haz que la propiedad sea 
+* Conocer el radio. Llama a la propiedad `Radius`. Haz que la propiedad sea 
   de tipo `double`.
 * Hacer el cálculo del perímetro del círculo. Llama a ese método 
   `GetPerimeter`. Haz que el método retorne un `double`. 
