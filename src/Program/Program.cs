@@ -4,24 +4,7 @@
 // </copyright>
 //--------------------------------------------------------------------------------
 
-using System;
-using ClassLibrary;
+// Agrega aquí un ejemplo que muestre la creación de un círculo y la impresión en
+// la consola de su circunferencia y su área.
 
-namespace ConsoleApplication
-{
-    /// <summary>
-    /// Programa de consola de demostración.
-    /// </summary>
-    public static class Program
-    {
-        /// <summary>
-        /// Punto de entrada al programa principal.
-        /// </summary>
-        public static void Main()
-        {
-            var train = new Train();
-            train.StartEngines();
-            Console.WriteLine("Hello World!");
-        }
-    }
-}
+Console.WriteLine("Reemplaza esto por tu ejemplo");

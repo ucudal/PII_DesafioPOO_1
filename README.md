@@ -1,43 +1,40 @@
-# Qué hay configurado en esta plantilla
+<img alt="UCU" src="https://www.ucu.edu.uy/plantillas/images/logo_ucu.svg"
+width="150"/>
 
-1. Un proyecto de biblioteca (creado con [`dotnet new classlib --name Library`](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new?tabs=netcore22)) en la carpeta `src\Library`
-2. Un proyecto de aplicación de consola (creado con [`dotnet new console --name Program`](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new?tabs=netcore22)) en la carpeta `src\Program`
-3. Un proyecto de prueba en [NUnit](https://nunit.org/) (creado con [`dotnet new nunit --name LibraryTests`](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new?tabs=netcore22)) en la carpeta `test\LibraryTests`
-4. Un proyecto de [Doxygen](https://www.doxygen.nl/index.html) para generación de sitio web de documentación en la carpeta `docs`
-5. Análisis estático con [Roslyn analyzers](https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/overview) en los proyectos de biblioteca y de aplicación
-6. Análisis de estilo con [StyleCop](https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/README.md) en los proyectos de biblioteca y de aplicación
-7. Una solución `ProjectTemplate.sln` que referencia todos los proyectos de C# y facilita la compilación con [`dotnet build`](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-build).
-8. Tareas preconfiguradas para compilar y ejecutar los proyectos, ejecutar las pruebas, y generar documentación desde VSCode en la carpeta `.vscode`
-9. Análisis de cobertura de los casos de prueba mediante []() que aparece en los márgenes con el complemento de VS Code [Coverage Gutters](https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters).
-10. Ejecución automática de compilación y prueba mediante [GitHub Actions](https://docs.github.com/en/actions) configuradas en el repositorio al hacer [push](https://github.com/git-guides/git-push) o [pull request](https://docs.github.com/en/github/collaborating-with-pull-requests).
+# Universidad Católica del Uruguay
 
-Vean este 🎥 [video](https://web.microsoftstream.com/video/55c6a06c-07dc-4f95-a96d-768f198c9044) que explica el funcionamiento de la plantilla.
+## Facultad de Ingeniería y Tecnologías
 
-## Convenciones
+### Programación II
 
-[Convenciones de código en C#](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions)
+# Desafíos de programación orientada a objetos
 
-[Convenciones de nombres en C#](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/naming-guidelines)
+## Consigna
 
-## Dónde encontrar información sobre los errores/avisos al compilar
+Crea una clase `Circle` con las siguientes responsabilidades:
 
-[C# Compiler Errors (CS*)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-messages/)
+* Conocer el radio. Llama a la propiedad `Radio`. Haz que la propiedad sea 
+  de tipo `double`.
+* Hacer el cálculo del perímetro del círculo. Llama a ese método 
+  `GetPerimeter`. Haz que el método retorne un `double`. 
+* Hacer el cálculo del área del círculo. Llama a ese método `GetArea`. Haz 
+  que el método retorne un `double`.
 
-[Roslyn Analyzer Warnings (CA*)](https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/categories)
+Agrega en el programa en `Program.cs` un ejemplo donde creas una instancia 
+de la clase `Circle` y luego muestras en la consola su perímetro y su área.
 
-[StyleCop Analyzer Warnings (SA*)](https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/DOCUMENTATION.md)
+Cuando tengas tu programa terminado, mira una posible solución [aquí]
+(https://github.com/ucudal/PII_DesafioPOO_1_End). Esa solución incluye la explicación de  cómo traducir la consigna a código.
 
-# Cómo deshabilitar temporalmente los avisos al compilar
+## Reflexiona
 
-## Roslyn Analyzer
+* ¿Pudiste completar el desafío? En caso de que no lo hayas terminado, ¿qué 
+  te lo impidió?
+* ¿En qué se diferencia tu solución de la otra que te mostramos? ¿Son 
+  relevantes las diferencias? 
 
-Comentar las siguientes líneas en los archivos de proyecto (`*.csproj`)
-```
-    <EnableNETAnalyzers>true</EnableNETAnalyzers>
-    <AnalysisMode>AllEnabledByDefault</AnalysisMode>
-    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
-```
+> [!TIP]
+> En caso de que tengas dudas al completar este desafío, consulta a tus 
+> profesores. 
 
-## StyleCop Analyzer
-
-Comentar la línea `<PackageReference Include="StyleCop.Analyzers" Version="1.1.118"/>` en los archivos de proyecto (`*.csproj`)
+Referencia: https://edabit.com/challenge/kpReAapuDjgX2b4em
