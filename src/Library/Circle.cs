@@ -4,5 +4,7 @@
 // </copyright>
 //--------------------------------------------------------------------------------
 
-namespace Ucu.Poo.Desafios;
-
+namespace Ucu.Poo.Desafios
+{
+    // Agrega tu clase Circle aquí.
+}
